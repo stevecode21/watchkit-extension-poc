@@ -10,8 +10,9 @@ import Foundation
 import WatchConnectivity
 
 class InterfaceController: WKInterfaceController, WCSessionDelegate {
-    @IBOutlet weak var firstLabel: WKInterfaceLabel!
+    //@IBOutlet weak var firstLabel: WKInterfaceLabel!
     
+    @IBOutlet weak var message: WKInterfaceLabel!
     
     override func awake(withContext context: Any?) {
         let session = WCSession.default
@@ -46,8 +47,21 @@ class InterfaceController: WKInterfaceController, WCSessionDelegate {
     func session(_ session: WCSession, didReceiveMessage message: [String : Any], replyHandler: @escaping ([String : Any]) -> Void) {
         print("Message \(message)")
         let text = message["message"] as! String
-        self.firstLabel.setText(text)
+        self.message.setText(text)
     }
     
+    func sendMessage() {
+        let message:[String:Any] = ["hello":"Value"]
+        print("Message sent \(message)")
+        WCSession.default.sendMessage(message, replyHandler: nil, errorHandler: nil)
+    }
+    
+    @IBAction func testClick() {
+        print("Send test was clicked")
+        //self.message.setText("Clicked")
+        sendMessage()
+        
+    }
     
 }
+
