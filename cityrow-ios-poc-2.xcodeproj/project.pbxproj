@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA02B3F227984AB400D779A6 /* cityrow-ios-poc-2 WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = AA02B3F127984AB400D779A6 /* cityrow-ios-poc-2 WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AA02B3F827984AB400D779A6 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA02B3F627984AB400D779A6 /* Interface.storyboard */; };
+		AA02B3FA27984ABA00D779A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA02B3F927984ABA00D779A6 /* Assets.xcassets */; };
+		AA02B40027984ABB00D779A6 /* cityrow-ios-poc-2 WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AA02B3FF27984ABB00D779A6 /* cityrow-ios-poc-2 WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AA02B40527984ABB00D779A6 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA02B40427984ABB00D779A6 /* InterfaceController.swift */; };
+		AA02B40727984ABB00D779A6 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA02B40627984ABB00D779A6 /* ExtensionDelegate.swift */; };
+		AA02B40927984ABB00D779A6 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA02B40827984ABB00D779A6 /* NotificationController.swift */; };
+		AA02B40B27984ABB00D779A6 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA02B40A27984ABB00D779A6 /* ComplicationController.swift */; };
+		AA02B40D27984AC000D779A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA02B40C27984AC000D779A6 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA02B3F327984AB400D779A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA02B3E727984AB300D779A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA02B3F027984AB400D779A6;
+			remoteInfo = "cityrow-ios-poc-2 WatchKit App";
+		};
+		AA02B40127984ABB00D779A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA02B3E727984AB300D779A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA02B3FE27984ABB00D779A6;
+			remoteInfo = "cityrow-ios-poc-2 WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AA02B41527984AC000D779A6 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AA02B40027984ABB00D779A6 /* cityrow-ios-poc-2 WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA02B41927984AC000D779A6 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				AA02B3F227984AB400D779A6 /* cityrow-ios-poc-2 WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AA02B3ED27984AB300D779A6 /* cityrow-ios-poc-2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cityrow-ios-poc-2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA02B3F127984AB400D779A6 /* cityrow-ios-poc-2 WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cityrow-ios-poc-2 WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA02B3F727984AB400D779A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		AA02B3F927984ABA00D779A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA02B3FF27984ABB00D779A6 /* cityrow-ios-poc-2 WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "cityrow-ios-poc-2 WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA02B40427984ABB00D779A6 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		AA02B40627984ABB00D779A6 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		AA02B40827984ABB00D779A6 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		AA02B40A27984ABB00D779A6 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		AA02B40C27984AC000D779A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA02B40E27984AC000D779A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA02B40F27984AC000D779A6 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA02B3FC27984ABB00D779A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA02B3E627984AB300D779A6 = {
+			isa = PBXGroup;
+			children = (
+				AA02B3F527984AB400D779A6 /* cityrow-ios-poc-2 WatchKit App */,
+				AA02B40327984ABB00D779A6 /* cityrow-ios-poc-2 WatchKit Extension */,
+				AA02B3EE27984AB300D779A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA02B3EE27984AB300D779A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA02B3ED27984AB300D779A6 /* cityrow-ios-poc-2.app */,
+				AA02B3F127984AB400D779A6 /* cityrow-ios-poc-2 WatchKit App.app */,
+				AA02B3FF27984ABB00D779A6 /* cityrow-ios-poc-2 WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA02B3F527984AB400D779A6 /* cityrow-ios-poc-2 WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				AA02B3F627984AB400D779A6 /* Interface.storyboard */,
+				AA02B3F927984ABA00D779A6 /* Assets.xcassets */,
+			);
+			path = "cityrow-ios-poc-2 WatchKit App";
+			sourceTree = "<group>";
+		};
+		AA02B40327984ABB00D779A6 /* cityrow-ios-poc-2 WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AA02B40427984ABB00D779A6 /* InterfaceController.swift */,
+				AA02B40627984ABB00D779A6 /* ExtensionDelegate.swift */,
+				AA02B40827984ABB00D779A6 /* NotificationController.swift */,
+				AA02B40A27984ABB00D779A6 /* ComplicationController.swift */,
+				AA02B40C27984AC000D779A6 /* Assets.xcassets */,
+				AA02B40E27984AC000D779A6 /* Info.plist */,
+				AA02B40F27984AC000D779A6 /* PushNotificationPayload.apns */,
+			);
+			path = "cityrow-ios-poc-2 WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA02B3EC27984AB300D779A6 /* cityrow-ios-poc-2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA02B41A27984AC000D779A6 /* Build configuration list for PBXNativeTarget "cityrow-ios-poc-2" */;
+			buildPhases = (
+				AA02B3EB27984AB300D779A6 /* Resources */,
+				AA02B41927984AC000D779A6 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA02B3F427984AB400D779A6 /* PBXTargetDependency */,
+			);
+			name = "cityrow-ios-poc-2";
+			productName = "cityrow-ios-poc-2";
+			productReference = AA02B3ED27984AB300D779A6 /* cityrow-ios-poc-2.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		AA02B3F027984AB400D779A6 /* cityrow-ios-poc-2 WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA02B41627984AC000D779A6 /* Build configuration list for PBXNativeTarget "cityrow-ios-poc-2 WatchKit App" */;
+			buildPhases = (
+				AA02B3EF27984AB400D779A6 /* Resources */,
+				AA02B41527984AC000D779A6 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA02B40227984ABB00D779A6 /* PBXTargetDependency */,
+			);
+			name = "cityrow-ios-poc-2 WatchKit App";
+			productName = "cityrow-ios-poc-2 WatchKit App";
+			productReference = AA02B3F127984AB400D779A6 /* cityrow-ios-poc-2 WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		AA02B3FE27984ABB00D779A6 /* cityrow-ios-poc-2 WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA02B41227984AC000D779A6 /* Build configuration list for PBXNativeTarget "cityrow-ios-poc-2 WatchKit Extension" */;
+			buildPhases = (
+				AA02B3FB27984ABB00D779A6 /* Sources */,
+				AA02B3FC27984ABB00D779A6 /* Frameworks */,
+				AA02B3FD27984ABB00D779A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cityrow-ios-poc-2 WatchKit Extension";
+			productName = "cityrow-ios-poc-2 WatchKit Extension";
+			productReference = AA02B3FF27984ABB00D779A6 /* cityrow-ios-poc-2 WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA02B3E727984AB300D779A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					AA02B3EC27984AB300D779A6 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					AA02B3F027984AB400D779A6 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					AA02B3FE27984ABB00D779A6 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = AA02B3EA27984AB300D779A6 /* Build configuration list for PBXProject "cityrow-ios-poc-2" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA02B3E627984AB300D779A6;
+			productRefGroup = AA02B3EE27984AB300D779A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA02B3EC27984AB300D779A6 /* cityrow-ios-poc-2 */,
+				AA02B3F027984AB400D779A6 /* cityrow-ios-poc-2 WatchKit App */,
+				AA02B3FE27984ABB00D779A6 /* cityrow-ios-poc-2 WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA02B3EB27984AB300D779A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA02B3EF27984AB400D779A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA02B3FA27984ABA00D779A6 /* Assets.xcassets in Resources */,
+				AA02B3F827984AB400D779A6 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA02B3FD27984ABB00D779A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA02B40D27984AC000D779A6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA02B3FB27984ABB00D779A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA02B40927984ABB00D779A6 /* NotificationController.swift in Sources */,
+				AA02B40B27984ABB00D779A6 /* ComplicationController.swift in Sources */,
+				AA02B40727984ABB00D779A6 /* ExtensionDelegate.swift in Sources */,
+				AA02B40527984ABB00D779A6 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA02B3F427984AB400D779A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA02B3F027984AB400D779A6 /* cityrow-ios-poc-2 WatchKit App */;
+			targetProxy = AA02B3F327984AB400D779A6 /* PBXContainerItemProxy */;
+		};
+		AA02B40227984ABB00D779A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA02B3FE27984ABB00D779A6 /* cityrow-ios-poc-2 WatchKit Extension */;
+			targetProxy = AA02B40127984ABB00D779A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA02B3F627984AB400D779A6 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA02B3F727984AB400D779A6 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA02B41027984AC000D779A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA02B41127984AC000D779A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA02B41327984AC000D779A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "cityrow-ios-poc-2 WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "cityrow-ios-poc-2 WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = cityrow_ios_poc_2_WatchKit_Extension.ComplicationController;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = cityrow_ios_poc_2_WatchKit_Extension.ExtensionDelegate;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cityrow-ios-poc-2.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		AA02B41427984AC000D779A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "cityrow-ios-poc-2 WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "cityrow-ios-poc-2 WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = cityrow_ios_poc_2_WatchKit_Extension.ComplicationController;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = cityrow_ios_poc_2_WatchKit_Extension.ExtensionDelegate;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cityrow-ios-poc-2.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		AA02B41727984AC000D779A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = cityrow_ios_poc_2_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "cityrow-ios-poc-2 WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cityrow-ios-poc-2.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		AA02B41827984AC000D779A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = cityrow_ios_poc_2_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "cityrow-ios-poc-2 WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cityrow-ios-poc-2.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		AA02B41B27984AC000D779A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cityrow-ios-poc-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AA02B41C27984AC000D779A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cityrow-ios-poc-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA02B3EA27984AB300D779A6 /* Build configuration list for PBXProject "cityrow-ios-poc-2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA02B41027984AC000D779A6 /* Debug */,
+				AA02B41127984AC000D779A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA02B41227984AC000D779A6 /* Build configuration list for PBXNativeTarget "cityrow-ios-poc-2 WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA02B41327984AC000D779A6 /* Debug */,
+				AA02B41427984AC000D779A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA02B41627984AC000D779A6 /* Build configuration list for PBXNativeTarget "cityrow-ios-poc-2 WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA02B41727984AC000D779A6 /* Debug */,
+				AA02B41827984AC000D779A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA02B41A27984AC000D779A6 /* Build configuration list for PBXNativeTarget "cityrow-ios-poc-2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA02B41B27984AC000D779A6 /* Debug */,
+				AA02B41C27984AC000D779A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA02B3E727984AB300D779A6 /* Project object */;
+}
